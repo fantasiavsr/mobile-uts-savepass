@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F9F8"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans"
+        android:text="tekan tanda + untuk menambahkan"
+        android:textAlignment="center"
+        android:textColor="#6C7C8F"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Secure your data,"
+        android:textAlignment="center"
+        android:textColor="@color/primary_color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="91dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/savepass_minimal" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dots" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="373dp"
+        android:layout_height="435dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/homePageAddItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/homePageGogle3"
+                    android:layout_width="320dp"
+                    android:layout_height="92dp"
+                    android:backgroundTint="@color/natural_white"
+                    android:fontFamily="@font/nunito_sans"
+                    android:letterSpacing="0"
+                    android:text="Google / myemail@gmail.com"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/homePageGogle3"
+                    android:layout_width="320dp"
+                    android:layout_height="92dp"
+                    android:backgroundTint="@color/natural_white"
+                    android:fontFamily="@font/nunito_sans"
+                    android:letterSpacing="0"
+                    android:text="Google / myemail@gmail.com"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/homePageGogle3"
+                    android:layout_width="320dp"
+                    android:layout_height="92dp"
+                    android:backgroundTint="@color/natural_white"
+                    android:fontFamily="@font/nunito_sans"
+                    android:letterSpacing="0"
+                    android:text="Google / myemail@gmail.com"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/homePageGogle1"
+                    android:layout_width="320dp"
+                    android:layout_height="93dp"
+                    android:backgroundTint="@color/natural_white"
+                    android:fontFamily="@font/nunito_sans"
+                    android:letterSpacing="0"
+                    android:text="Google / myemail@gmail.com"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/homePageGogle3"
+                    android:layout_width="320dp"
+                    android:layout_height="92dp"
+                    android:backgroundTint="@color/natural_white"
+                    android:fontFamily="@font/nunito_sans"
+                    android:letterSpacing="0"
+                    android:text="Google / myemail@gmail.com"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/homePageGogle2"
+                    android:layout_width="320dp"
+                    android:layout_height="93dp"
+                    android:backgroundTint="@color/natural_white"
+                    android:fontFamily="@font/nunito_sans"
+                    android:letterSpacing="0"
+                    android:text="Google / myemail@gmail.com"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/homePageGogle3"
+                    android:layout_width="320dp"
+                    android:layout_height="92dp"
+                    android:backgroundTint="@color/natural_white"
+                    android:fontFamily="@font/nunito_sans"
+                    android:letterSpacing="0"
+                    android:text="Google / myemail@gmail.com"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/homePageAddItem"
+        android:layout_width="277dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/primary_color"
+        android:text="+"
+        android:textColor="@color/natural_white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="428dp"
+        android:layout_height="68dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/homePageHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F6F9F8"
+            android:text="Home"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_color"
+            app:icon="@drawable/homeactive"
+            app:iconTint="@color/primary_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.326"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.55" />
+
+        <Button
+            android:id="@+id/homePageSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/natural_white"
+            android:text="Setting"
+            android:textAllCaps="false"
+            android:textColor="#A1B0F7"
+            app:icon="@drawable/settingactive"
+            app:iconTint="#A1B0F7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.11"
+            app:layout_constraintStart_toEndOf="@+id/homePageHome"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.55" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

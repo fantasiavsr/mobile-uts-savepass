@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F9F8"
+    tools:context=".LoginPage">
+
+    <Button
+        android:id="@+id/loginPageMasuk"
+        android:layout_width="326dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/primary_color"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Masuk"
+        android:textAllCaps="false"
+        android:textColor="@color/natural_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="326dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:background="#AC6868"
+        android:textColorHint="#6C7C8F"
+        app:boxStrokeColor="@color/primary_color"
+        app:endIconTint="@color/primary_color"
+        app:hintTextColor="@color/primary_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+        app:startIconTint="@color/primary_color">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:backgroundTint="#EAEAEA"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="326dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="72dp"
+        android:textColorHint="#6C7C8F"
+        app:boxStrokeColor="@color/primary_color"
+        app:endIconTint="@color/primary_color"
+        app:hintTextColor="@color/primary_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:startIconTint="@color/primary_color">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autoText="false"
+            android:background="#000000"
+            android:backgroundTint="#EAEAEA"
+            android:hint="Username"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:textColorLink="#000000"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans"
+        android:text="login untuk melanjutkan"
+        android:textAlignment="center"
+        android:textColor="@color/primary_color"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Selamat datang kembali,"
+        android:textAlignment="center"
+        android:textColor="@color/primary_color"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="173dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/savepass_account" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

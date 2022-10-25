@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">savepass</string>
+    <string name="todo">TODO</string>
+    <string name="your_place_to_secure_your_data">Your place to secure your data</string>
+    <string name="savepass_merupakan_aplikasi_manajemen_password_pengguna_untuk_untuk_menyimpan_password_dengan_mudah">SavePass merupakan aplikasi manajemen password pengguna untuk untuk menyimpan password dengan mudah</string>
+    <string name="saya_menyetujui_syarat_dan_ketentuan_dan_kebijakan_privasi_yang_berlaku">Saya menyetujui Syarat dan Ketentuan dan Kebijakan Privasi yang berlaku</string>
+    <string name="lanjut">Lanjut</string>
+</resources>
